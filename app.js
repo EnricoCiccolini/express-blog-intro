@@ -9,31 +9,31 @@ const array = [
         titolo: "Ciambellone",
         contenuto: "ricetta del dolce",
         tags: ["#economica"],
-        img: "img/ciambellone.jpeg"
+        img: "./img/ciambellone.jpeg"
     },
     {
        titolo: "Craker Barbabietola",
        contenuto: "ricetta del dolce",
        tags: ["#croccante"],
-       img: "img/cracker_barbabietola.jpeg"
+       img: "./img/cracker_barbabietola.jpeg"
    },
    {
        titolo: "Pane Fritto Dolce",
        contenuto: "ricetta del dolce",
        tags: ["#tradizionale"],
-       img: "img/pane_fritto_dolce.jpeg"
+       img: "./img/pane_fritto_dolce.jpeg"
    },
    {
        titolo: "Pasta alla Barbabietola",
        contenuto: "ricetta del dolce",
        tags: ["#colorata"],
-       img: "img/pasta_barbabietola.jpeg"
+       img: "./img/pasta_barbabietola.jpeg"
    },
    {
        titolo: "Torta Paesana",
        contenuto: "ricetta del dolce",
        tags: ["#facile"],
-       img: "img/torta_paesana.jpeg"
+       img: "./img/torta_paesana.jpeg"
    }];
 
 
