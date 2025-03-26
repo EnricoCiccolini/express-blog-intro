@@ -7,31 +7,31 @@ app.use(express.static('public'))
 const array = [
     {
         titolo: "Ciambellone",
-        contenuto: "ciao sono il contenuto, non so cosa devo essere",
+        contenuto: "ricetta del dolce",
         tag: ["#economica"],
         img: "img/ciambellone.jpeg"
     },
     {
        titolo: "Craker Barbabietola",
-       contenuto: "ciao sono il contenuto, non so cosa devo essere",
+       contenuto: "ricetta del dolce",
        tag: ["#croccante"],
        img: "img/cracker_barbabietola.jpeg"
    },
    {
        titolo: "Pane Fritto Dolce",
-       contenuto: "ciao sono il contenuto, non so cosa devo essere",
+       contenuto: "ricetta del dolce",
        tag: ["#tradizionale"],
        img: "img/pane_fritto_dolce.jpeg"
    },
    {
        titolo: "Pasta alla Barbabietola",
-       contenuto: "ciao sono il contenuto, non so cosa devo essere",
+       contenuto: "ricetta del dolce",
        tag: ["#colorata"],
        img: "img/pasta_barbabietola.jpeg"
    },
    {
        titolo: "Torta Paesana",
-       contenuto: "ciao sono il contenuto, non so cosa devo essere",
+       contenuto: "ricetta del dolce",
        tag: ["#facile"],
        img: "img/torta_paesana.jpeg"
    }];
@@ -52,5 +52,3 @@ app.listen(port, () =>{
 })
 
 
-
-// console.log('provo 123')
