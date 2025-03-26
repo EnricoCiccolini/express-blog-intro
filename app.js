@@ -2,43 +2,39 @@ const express = require('express')
 const app = express()
 const port = 3001
 
+app.use(express.static('public'))
 
-const array =[
+const array = [
     {
-       titolo :'titolo di prova',
-       contenuto:  'contenuto di prova ',
-       immagine :'immaginme di prova',
-       tags : 'tags di prova '
+        titolo: "Ciambellone",
+        contenuto: "ciao sono il contenuto, non so cosa devo essere",
+        tag: ["#economica"],
+        img: "img/ciambellone.jpeg"
     },
-
     {
-        titolo :'titolo di prova',
-        contenuto:  'contenuto di prova ',
-        immagine :'immaginme di prova',
-        tags : 'tags di prova '
-     },
-
-     {
-        titolo :'titolo di prova',
-        contenuto:  'contenuto di prova ',
-        immagine :'immaginme di prova',
-        tags : 'tags di prova '
-     },
-
-     {
-        titolo :'titolo di prova',
-        contenuto:  'contenuto di prova ',
-        immagine :'immaginme di prova',
-        tags : 'tags di prova '
-     },
-
-     {
-        titolo :'titolo di prova',
-        contenuto:  'contenuto di prova ',
-        immagine :'immaginme di prova',
-        tags : 'tags di prova '
-     },
-]
+       titolo: "Craker Barbabietola",
+       contenuto: "ciao sono il contenuto, non so cosa devo essere",
+       tag: ["#croccante"],
+       img: "img/cracker_barbabietola.jpeg"
+   },
+   {
+       titolo: "Pane Fritto Dolce",
+       contenuto: "ciao sono il contenuto, non so cosa devo essere",
+       tag: ["#tradizionale"],
+       img: "img/pane_fritto_dolce.jpeg"
+   },
+   {
+       titolo: "Pasta alla Barbabietola",
+       contenuto: "ciao sono il contenuto, non so cosa devo essere",
+       tag: ["#colorata"],
+       img: "img/pasta_barbabietola.jpeg"
+   },
+   {
+       titolo: "Torta Paesana",
+       contenuto: "ciao sono il contenuto, non so cosa devo essere",
+       tag: ["#facile"],
+       img: "img/torta_paesana.jpeg"
+   }];
 
 
 app.get("/", (req, res) => {
